@@ -45,8 +45,8 @@ async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promis
 
 export const hindiScraper = makeSourcerer({
   id: 'hindiscraper',
-  name: 'Jalebi Scraper',
-  rank: 10,
+  name: 'India Scraper',
+  rank: 100,
   flags: [flags.CORS_ALLOWED],
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
