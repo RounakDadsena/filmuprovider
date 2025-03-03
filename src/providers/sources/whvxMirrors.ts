@@ -4,11 +4,6 @@ import { MovieScrapeContext, ShowScrapeContext } from '@/utils/context';
 
 export const baseUrl = 'https://mirrors.whvx.net/';
 
-export const headers = {
-  Origin: 'https://www.vidbinge.com',
-  Referer: 'https://www.vidbinge.com',
-};
-
 async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promise<SourcererOutput> {
   const query = {
     title: ctx.media.title,
