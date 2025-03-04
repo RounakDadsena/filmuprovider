@@ -3,11 +3,11 @@ import { makeEmbed } from '@/providers/base';
 
 const providers = [
   {
-    id: 'hindiscrape-english',
+    id: 'hindiscrape-hindi',
     rank: 10,
   },
   {
-    id: 'hindiscrape-hindi',
+    id: 'hindiscrape-english',
     rank: 9,
   },
   {
