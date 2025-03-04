@@ -76,6 +76,7 @@ import { soaperTvScraper } from './sources/soapertv';
 import { vidSrcToScraper } from './sources/vidsrcto';
 import { warezcdnScraper } from './sources/warezcdn';
 import { whvxScraper } from './sources/whvx';
+import { uiraliveScraper } from './sources/uiralive';
 
 export function gatherAllSources(): Array<Sourcerer> {
   // all sources are gathered here
@@ -112,6 +113,7 @@ export function gatherAllSources(): Array<Sourcerer> {
     netMirrorScraper,
     mirrorsScraper,
     mp4hydraScraper,
+    uiraliveScraper,
   ];
 }
 
