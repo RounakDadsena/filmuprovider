@@ -41,7 +41,7 @@ export const mirrorsScraper = makeSourcerer({
   name: 'WHVX Mirrors',
   rank: 158,
   flags: [flags.CORS_ALLOWED],
-  disabled: false,
+  disabled: true,
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
 });
