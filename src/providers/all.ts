@@ -57,6 +57,7 @@ import { warezcdnembedHlsScraper } from './embeds/warezcdn/hls';
 import { warezcdnembedMp4Scraper } from './embeds/warezcdn/mp4';
 import { astraScraper, novaScraper, orionScraper } from './embeds/whvx';
 import { amznScraper, ntflxScraper } from './embeds/whvxMirrors';
+import { streamboxScraper } from './sources/streambox';
 import { wootlyScraper } from './embeds/wootly';
 import { hindiScraper } from './sources/autoembed';
 import { catflixScraper } from './sources/catflix';
@@ -114,6 +115,7 @@ export function gatherAllSources(): Array<Sourcerer> {
     mirrorsScraper,
     mp4hydraScraper,
     uiraliveScraper,
+    streamboxScraper,
   ];
 }
 
