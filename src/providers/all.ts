@@ -79,11 +79,7 @@ import { vidSrcToScraper } from './sources/vidsrcto';
 import { warezcdnScraper } from './sources/warezcdn';
 import { whvxScraper } from './sources/whvx';
 import {
-  VidsrcsuServer10Scraper,
-  VidsrcsuServer11Scraper,
-  VidsrcsuServer12Scraper,
   VidsrcsuServer1Scraper,
-  VidsrcsuServer20Scraper,
   VidsrcsuServer2Scraper,
   VidsrcsuServer3Scraper,
   VidsrcsuServer4Scraper,
@@ -92,6 +88,10 @@ import {
   VidsrcsuServer7Scraper,
   VidsrcsuServer8Scraper,
   VidsrcsuServer9Scraper,
+  VidsrcsuServer10Scraper,
+  VidsrcsuServer11Scraper,
+  VidsrcsuServer12Scraper,
+  VidsrcsuServer20Scraper,
 } from './embeds/vidsrcsu';
 
 export function gatherAllSources(): Array<Sourcerer> {
