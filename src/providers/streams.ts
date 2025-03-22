@@ -1,4 +1,4 @@
-import { Flags } from '@/entrypoint/utils/targets';
+vimport { Flags } from '@/entrypoint/utils/targets';
 import { Caption } from '@/providers/captions';
 
 export type StreamFile = {
