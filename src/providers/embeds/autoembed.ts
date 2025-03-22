@@ -3,23 +3,23 @@ import { makeEmbed } from '@/providers/base';
 
 const providers = [
   {
-    id: 'hindiscrape-english',
+    id: 'filmu-english',
     rank: 10,
   },
   {
-    id: 'hindiscrape-hindi',
+    id: 'filmu-hindi',
     rank: 9,
   },
   {
-    id: 'hindiscrape-tamil',
+    id: 'filmu-tamil',
     rank: 8,
   },
   {
-    id: 'hindiscrape-telugu',
+    id: 'filmu-telugu',
     rank: 7,
   },
   {
-    id: 'hindiscrape-bengali',
+    id: 'filmu-bengali',
     rank: 6,
   },
 ];
