@@ -109,6 +109,7 @@ export const vidsrcsuScraper = makeSourcerer({
   id: 'vidsrcsu',
   name: 'filmu 3',
   rank: 270,
+  disabled: true,
   flags: [flags.CORS_ALLOWED],
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
