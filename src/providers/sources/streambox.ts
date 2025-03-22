@@ -98,7 +98,7 @@ export const streamboxScraper = makeSourcerer({
   id: 'streambox',
   name: 'filmu 2',
   rank: 370,
-  disabled: false,
+  disabled: true,
   flags: [flags.CORS_ALLOWED],
   scrapeMovie: comboScraper,
   scrapeShow: comboScraper,
