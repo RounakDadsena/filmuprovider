@@ -26,6 +26,7 @@ import { tugaflixScraper } from '@/providers/sources/tugaflix';
 import { vidsrcScraper } from '@/providers/sources/vidsrc/index';
 import { mirrorsScraper } from '@/providers/sources/whvxMirrors';
 import { zoechipScraper } from '@/providers/sources/zoechip';
+import { vidsrcsuScraper } from '@/providers/sources/vidsrcsu';
 
 import {
   hidiscrapeBengaliScraper,
@@ -77,6 +78,20 @@ import { soaperTvScraper } from './sources/soapertv';
 import { vidSrcToScraper } from './sources/vidsrcto';
 import { warezcdnScraper } from './sources/warezcdn';
 import { whvxScraper } from './sources/whvx';
+import {
+  VidsrcsuServer10Scraper,
+  VidsrcsuServer11Scraper,
+  VidsrcsuServer12Scraper,
+  VidsrcsuServer1Scraper,
+  VidsrcsuServer20Scraper,
+  VidsrcsuServer2Scraper,
+  VidsrcsuServer3Scraper,
+  VidsrcsuServer4Scraper,
+  VidsrcsuServer5Scraper,
+  VidsrcsuServer6Scraper,
+  VidsrcsuServer7Scraper,
+  VidsrcsuServer8Scraper,
+  VidsrcsuServer9Scraper,
 import { uiraliveScraper } from './sources/uiralive';
 
 export function gatherAllSources(): Array<Sourcerer> {
@@ -109,6 +124,7 @@ export function gatherAllSources(): Array<Sourcerer> {
     catflixScraper,
     hindiScraper,
     moviplusScraper,
+    vidsrcsuScraper,
     filmxyScraper,
     twoEmbedScraper,
     netMirrorScraper,
@@ -163,6 +179,19 @@ export function gatherAllEmbeds(): Array<Embed> {
     hidiscrapeTamilScraper,
     hidiscrapeTeluguScraper,
     vidkerScraper,
+    VidsrcsuServer1Scraper,
+    VidsrcsuServer2Scraper,
+    VidsrcsuServer3Scraper,
+    VidsrcsuServer4Scraper,
+    VidsrcsuServer5Scraper,
+    VidsrcsuServer6Scraper,
+    VidsrcsuServer7Scraper,
+    VidsrcsuServer8Scraper,
+    VidsrcsuServer9Scraper,
+    VidsrcsuServer10Scraper,
+    VidsrcsuServer11Scraper,
+    VidsrcsuServer12Scraper,
+    VidsrcsuServer20Scraper,
     streamwishScraper,
     doodScraper,
     amznScraper,
