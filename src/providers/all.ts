@@ -92,7 +92,7 @@ import {
   VidsrcsuServer7Scraper,
   VidsrcsuServer8Scraper,
   VidsrcsuServer9Scraper,
-
+} from './embeds/vidsrcsu';
 
 export function gatherAllSources(): Array<Sourcerer> {
   // all sources are gathered here
