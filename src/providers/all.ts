@@ -92,7 +92,7 @@ import {
   VidsrcsuServer7Scraper,
   VidsrcsuServer8Scraper,
   VidsrcsuServer9Scraper,
-import { uiraliveScraper } from './sources/uiralive';
+
 
 export function gatherAllSources(): Array<Sourcerer> {
   // all sources are gathered here
@@ -130,7 +130,6 @@ export function gatherAllSources(): Array<Sourcerer> {
     netMirrorScraper,
     mirrorsScraper,
     mp4hydraScraper,
-    uiraliveScraper,
     streamboxScraper,
   ];
 }
