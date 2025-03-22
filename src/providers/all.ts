@@ -58,21 +58,6 @@ import { warezcdnembedHlsScraper } from './embeds/warezcdn/hls';
 import { warezcdnembedMp4Scraper } from './embeds/warezcdn/mp4';
 import { astraScraper, novaScraper, orionScraper } from './embeds/whvx';
 import { amznScraper, ntflxScraper } from './embeds/whvxMirrors';
-import {
-  VidsrcsuServer1Scraper,
-  VidsrcsuServer2Scraper,
-  VidsrcsuServer3Scraper,
-  VidsrcsuServer4Scraper,
-  VidsrcsuServer5Scraper,
-  VidsrcsuServer6Scraper,
-  VidsrcsuServer7Scraper,
-  VidsrcsuServer8Scraper,
-  VidsrcsuServer9Scraper,
-  VidsrcsuServer10Scraper,
-  VidsrcsuServer11Scraper,
-  VidsrcsuServer12Scraper,
-  VidsrcsuServer20Scraper,
-} from './embeds/vidsrcsu';
 import { streamboxScraper } from './sources/streambox';
 import { wootlyScraper } from './embeds/wootly';
 import { hindiScraper } from './sources/autoembed';
@@ -162,19 +147,6 @@ export function gatherAllEmbeds(): Array<Embed> {
     droploadScraper,
     filelionsScraper,
     vTubeScraper,
-    VidsrcsuServer1Scraper,
-    VidsrcsuServer2Scraper,
-    VidsrcsuServer3Scraper,
-    VidsrcsuServer4Scraper,
-    VidsrcsuServer5Scraper,
-    VidsrcsuServer6Scraper,
-    VidsrcsuServer7Scraper,
-    VidsrcsuServer8Scraper,
-    VidsrcsuServer9Scraper,
-    VidsrcsuServer10Scraper,
-    VidsrcsuServer11Scraper,
-    VidsrcsuServer12Scraper,
-    VidsrcsuServer20Scraper,
     warezcdnembedHlsScraper,
     warezcdnembedMp4Scraper,
     bflixScraper,
